@@ -1,0 +1,11 @@
+@using System.Text.Encodings.Web
+@if (_pageInfo != null)
+{
+    <button class="btn-primary btn" @onclick="OnNextQuestionClick">Next Question</button>
+    <h1>@_pageInfo.Title</h1>
+    <div>@((MarkupString)_pageInfo.Question)</div>
+}
+else
+{
+    <span>Stil Loading...</span>
+}

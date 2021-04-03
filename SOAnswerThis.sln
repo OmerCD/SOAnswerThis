@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAnswerThis.UI", "SOAnswerThis.UI\SOAnswerThis.UI.csproj", "{9CC86C5F-2DAA-43B8-9EA6-D84C6DB82DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAnswerThis.API", "SOAnswerThis.API\SOAnswerThis.API.csproj", "{ACF9F05C-17D8-4C74-8027-09C8182A571A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAnswerThis.Infrastructure", "SOAnswerThis.Infrastructure\SOAnswerThis.Infrastructure.csproj", "{F2D42B6F-CD81-428D-B1C8-B01872E3B55A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC86C5F-2DAA-43B8-9EA6-D84C6DB82DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC86C5F-2DAA-43B8-9EA6-D84C6DB82DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC86C5F-2DAA-43B8-9EA6-D84C6DB82DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC86C5F-2DAA-43B8-9EA6-D84C6DB82DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF9F05C-17D8-4C74-8027-09C8182A571A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF9F05C-17D8-4C74-8027-09C8182A571A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF9F05C-17D8-4C74-8027-09C8182A571A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF9F05C-17D8-4C74-8027-09C8182A571A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D42B6F-CD81-428D-B1C8-B01872E3B55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D42B6F-CD81-428D-B1C8-B01872E3B55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D42B6F-CD81-428D-B1C8-B01872E3B55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D42B6F-CD81-428D-B1C8-B01872E3B55A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
