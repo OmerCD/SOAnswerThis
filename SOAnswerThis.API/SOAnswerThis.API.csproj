@@ -5,9 +5,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
         <PackageReference Include="HtmlAgilityPack" Version="1.11.32" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
         <PackageReference Include="PuppeteerSharp" Version="3.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SOAnswerThis.Contract\SOAnswerThis.Contract.csproj" />
+      <ProjectReference Include="..\SOAnswerThis.Domain\SOAnswerThis.Domain.csproj" />
+      <ProjectReference Include="..\SOAnswerThis.Infrastructure\SOAnswerThis.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

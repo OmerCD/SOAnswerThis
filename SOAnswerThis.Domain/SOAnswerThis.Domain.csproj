@@ -5,11 +5,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="PuppeteerSharp" Version="3.0.0" />
+      <Folder Include="Commands" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="9.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\SOAnswerThis.DTO\SOAnswerThis.DTO.csproj" />
+      <ProjectReference Include="..\SOAnswerThis.Infrastructure\SOAnswerThis.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
